@@ -22,7 +22,7 @@ const windowWidth = Dimensions.get("window").width;
 const windowHeight = Dimensions.get("window").height;
 
 export default function QuestInput({ navigation }) {
-  const { quest, setQuest } = useContext(QuestContext);
+  const { setQuest } = useContext(QuestContext);
 
   const [fontsLoaded] = useFonts({
     "Minecraft-Bold": require("../assets/fonts/minecraft-font/Minecraft-Bold.otf"),
@@ -249,12 +249,16 @@ const styles = StyleSheet.create({
   },
 
   Submit: {
-    marginLeft: 140,
-    marginTop: 390,
-    position: "absolute",
-    width: 70,
-    height: 40,
     backgroundColor: colors.primary,
+    margin: 25,
+    marginRight: 50,
+    width: 80,
+    height: 40,
+    left: "45%",
+    bottom: 100,
+    position: "absolute",
+    borderRadius: "5%",
+    shadowOpacity: "5%",
   },
   SubmitText: {
     color: colors.black,
