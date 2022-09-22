@@ -3,6 +3,10 @@
 FavourQuest makes helping people into a fun RPG style game. This is a gamification of real life volunteering and doing good deeds in the community.
 When coming up with ideas, we decided we wanted to build an app that was beneficial for the community and would inspire people to be more helpful and kind to each other.
 
+# Tech
+
+This app was built in NodeJS, using React Native and its Map and Navigation substructures, as well as Expo. We used Firebase for our backend and also made use of Google's Place Autocomplete, featured in its Maps API. 
+
 # Launching
 
 To run the app, follow these instructions:
